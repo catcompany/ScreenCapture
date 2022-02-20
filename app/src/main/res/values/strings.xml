@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">录屏</string>
+    <string name="start_record">开始录制</string>
+    <string name="notification_id">录屏服务</string>
+    <string name="recording">录屏中，点击停止</string>
+    <string name="permission_details">需要存储权限保存录屏文件\n需要录音权限录制麦克风声音</string>
+    <string name="stop_record">停止录制</string>
+</resources>
