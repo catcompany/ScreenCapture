@@ -54,7 +54,7 @@ public class RecordService extends Service {
 
   private void createNotificationChannel() {
     Notification.Builder builder = new Notification.Builder(this.getApplicationContext());
-    Intent intent = new Intent(this, RecordService.class);
+    Intent intent = new Intent(this, MainActivity.class);
     builder
         .setContentIntent(PendingIntent.getActivity(this, 0, intent, 0))
         .setLargeIcon(BitmapFactory.decodeResource(this.getResources(), R.mipmap.ic_launcher))
